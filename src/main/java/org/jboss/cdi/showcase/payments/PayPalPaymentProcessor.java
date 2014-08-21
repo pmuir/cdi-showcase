@@ -1,0 +1,1 @@
+package org.jboss.cdi.showcase.payments;@PayPalpublic class PayPalPaymentProcessor implements PaymentProcessor {	public String[] getSupportedMethods() {		return new String[] { "PayPal" };	}		}

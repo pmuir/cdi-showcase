@@ -1,0 +1,1 @@
+package org.jboss.cdi.showcase.shop;/** * An example of a bean with 4 types: *   * BookShop * Business  * Shop<Book>  (Notice that a parameterized type is a legal bean type). * the implicit type java.lang.Object. * */public class BookShop extends Business implements Shop<Book> {	}

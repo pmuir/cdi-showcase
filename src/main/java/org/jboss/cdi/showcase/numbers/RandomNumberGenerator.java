@@ -1,0 +1,1 @@
+package org.jboss.cdi.showcase.numbers;import javax.enterprise.context.ApplicationScoped;import javax.enterprise.inject.Produces;import javax.inject.Named;@ApplicationScopedpublic class RandomNumberGenerator {	private java.util.Random random = new java.util.Random(System.currentTimeMillis());	@Named int getRandomNumber() {		return random.nextInt(100);	}}

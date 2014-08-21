@@ -1,0 +1,1 @@
+package org.jboss.cdi.showcase.payments;@CreditCardpublic class CreditCardPaymentProcessor implements PaymentProcessor {	public String[] getSupportedMethods() {		return new String[] { "Visa", "Mastercard", "American Express" };	}	}
